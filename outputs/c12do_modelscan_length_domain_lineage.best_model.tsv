@@ -1,0 +1,2 @@
+model	predictors	n_predictors	r2	adj_r2	aic	delta_r2_vs_length
+cosine_distance ~ length_count + domain + lineage_1 + lineage_2	length_count+domain+lineage_1+lineage_2	4	0.5211082416079368	0.5197923639058153	-80468.44455337053	0.5094236745455502
