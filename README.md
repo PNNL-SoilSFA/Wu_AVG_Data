@@ -1,4 +1,4 @@
-# C12DO_MS
+# Wu_AVG_Data
 V-C12DO MS
 
 This repository contains scripts and source data to reproduce analyses and figures for a global catechol 1,2-dioxygenase (C12DO) sequence embedding study, including (1) regression model scans of ESM2 embedding distance patterns, (2) a UMAP visualization highlighting a viral query (V-C12DO) and its nearest neighbors, and (3) residue conservation point plots and lineage level heatmaps anchored to aligned HMM columns.
@@ -89,6 +89,8 @@ These are keyed by `prefix`, currently:
 
 The script writes the following files to the working directory unless you change paths.
 
+Outputs are available via the published article, see <PLACEHOLDER PUBLICATION DOI>
+
 ### Model scan outputs
 - `c12do_modelscan_length_domain_lineage.all_models.tsv`  
 	All models evaluated, ranked by adjusted R2 then AIC.
@@ -100,9 +102,9 @@ The script writes the following files to the working directory unless you change
 - `c12do_umap_domainShape_neighborFill_oligomerLabels.png`
 
 ### Heatmap and intermediate tables
-- `fig1b_vc_calls_table.tsv`
-- `fig1b_heat_grid_table.tsv`
-- `fig1b_heat_summarised_table.tsv`
+- `fig1c_vc_calls_table.tsv`
+- `fig1c_heat_grid_table.tsv`
+- `fig1c_heat_summarised_table.tsv`
 
 ## Requirements
 
